@@ -1,0 +1,59 @@
+/* Section Top-bar */
+.top-bar{
+  background-color: black;
+  height: 25px;
+  font-size: 12px;
+}
+/* list */
+.top-bar__list{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.top-bar__list > li {
+  margin-right: 1rem;
+}
+
+.top-bar__list > li > a,
+.top-bar__search > input {
+  color: white;
+}
+.top-bar__body{
+  background-color: #f0a52b;
+  height: 70px;
+}
+.top-bar__body > img{
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  padding: auto;
+}
+.top-bar__body  a {
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px;
+}
+.nav-bar{
+  background-color: #a70e1a;
+  height: 40px;
+}
+.nav-bar__list{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+}
+.nav-bar__list > li {
+  margin-right: 1rem;
+}
+.nav-bar__item a{
+  font-size: 15px;
+  color: white;
+}
